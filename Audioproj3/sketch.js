@@ -6,7 +6,7 @@ bend.toDestination();
 const now = Tone.now();
 
 function preload(){
-  mouse = loadImage ('assets/coin.jpg')
+  coin = loadImage ('assets/coin.jpg')
 }
 
 function setup() {
