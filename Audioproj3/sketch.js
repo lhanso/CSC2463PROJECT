@@ -1,6 +1,6 @@
 let synth = new Tone.MonoSynth(Tone.Synth);
 let bend = new Tone.PitchShift ();
-bend.pitch = 0;
+bend.pitch = 10;
 synth.connect(bend);
 bend.toDestination();
 const now = Tone.now();
